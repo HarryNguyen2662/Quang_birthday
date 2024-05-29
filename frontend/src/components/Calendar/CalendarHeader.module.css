@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-self: space-between;
+}
+
+.icon {
+  margin-right: 50px;
+}
+
+.date {
+  margin-left: 50px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.button {
+  background-color: white;
+  color: #000;
+  padding: 10px 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 150px;
+  border-radius: 10%;
+  transition: background-color 0.5s ease;
+  border: 2px solid var(--main-blue);
+}
+
+.button:hover {
+  background-color: var(--main-blue);
+  color: #fff;
+}
+
+.icon {
+  border-radius: 10%;
+  width: 50px;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.icon_sentence {
+  border: solid 1px #a2d2ff;
+  padding: 0.6 rem;
+  border-radius: 30px;
+  transition: transform 0.2s ease-in-out;
+  background-color: var(--main-blue);
+  cursor: pointer;
+  margin-right: 15px;
+  margin-left: 20px;
+}
+
+.icon_sentence:hover {
+  transform: translateY(-5px);
+  background-color: #caf0f8;
+  color: whitesmoke;
+}
+
+.sentence {
+  margin-right: 30px;
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.today {
+  margin-left: 50px;
+}
+
+.buttonArrow {
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.buttonArrow:hover {
+  background-color: #ced4da;
+}
+
+.invitationBoxButton {
+  border: solid 1px #a2d2ff;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: 70px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: whitesmoke;
+  padding: 12px;
+  background-color: var(--main-blue);
+}
+
+.switchView {
+  margin-left: 25%;
+  padding: 0px;
+}
+
+.MonthViewButton {
+  border: 1px solid;
+  padding: 12px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: var(--main-blue);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: -100px;
+}
+
+.DayViewButton {
+  border: 1px solid;
+  padding: 12px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: var(--main-blue);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.choosing {
+  box-shadow: 0 0 5px 3px rgba(202, 240, 248, 0.8);
+  border: #a2d2ff solid 2px;
+}

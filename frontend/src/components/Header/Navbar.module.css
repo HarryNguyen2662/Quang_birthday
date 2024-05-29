@@ -1,0 +1,56 @@
+.navbar {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+.navbarNav {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.navbarItem {
+  margin: 0 40px;
+}
+
+.navbarLink {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.navbarLink:hover {
+  color: #aacaef;
+}
+
+.logo {
+  width: 150px; /* Adjust the width to your desired size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.signOutButton {
+  border: solid 1px #a2d2ff;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: whitesmoke;
+  padding: 10px;
+  background-color: var(--main-blue);
+}
+
+.signOutButton:hover {
+  background-color: #0e2640;
+}

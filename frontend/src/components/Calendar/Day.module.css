@@ -1,0 +1,81 @@
+.box_day {
+  border: solid var(--main-grey);
+  border-collapse: collapse;
+  height: 7.8rem;
+  width: 7rem;
+}
+
+.test {
+  margin-top: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.today {
+  border: none;
+  background-color: var(--main-blue);
+  border-radius: 50%;
+  width: 32px; /* Adjust the width to make the circle bigger */
+  height: 32px; /* Adjust the height to make the circle bigger */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.day:hover {
+  background-color: var(--main-grey); /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover */
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.todayEvents {
+  border: 2px solid #a2d2ff;
+  border-radius: 10px;
+  background-color: #aacaef;
+  color: whitesmoke;
+  margin-top: 3px;
+  padding-left: 5px;
+}
+
+.todayEvents:hover {
+  background-color: #6486ac;
+  cursor: pointer;
+}
+
+.finishModal {
+  position: relative;
+  bottom: 50px;
+  left: 200px;
+  border: 2px solid;
+  width: 200px;
+  background-color: whitesmoke;
+}
+
+.buttonToFinish {
+  border: 1px solid;
+  background-color: #a2d2ff;
+  color: white;
+}
+
+.completedEvents {
+  background-color: rgb(27, 23, 86);
+}
+
+.finishBadge {
+  position: absolute;
+  top: -15%;
+  left: 90%;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #A0C49D;
+}
