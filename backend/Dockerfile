@@ -9,7 +9,7 @@ WORKDIR /backend
 COPY . /backend
 
 # Install the application dependencies
-RUN yarn install
+RUN npm install
 
 # Define the entry point for the container
-CMD ["yarn", "start"]
+CMD ["npm", "start"]
