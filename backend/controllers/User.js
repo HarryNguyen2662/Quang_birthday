@@ -7,8 +7,8 @@ const crypto = require('crypto');
 const { google } = require('googleapis');
 
 const oauth2Client = new OAuth2Client(
-  '225763645761-hsk3k9suo4qdjenika5i9deutkg7h5u1.apps.googleusercontent.com',
-  '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',
+  '65997533325-85nl8oqrtc6rcu9p75ja853fnnq0emnf.apps.googleusercontent.com',
+  'iuMovcapY6KjMConOtGgtCym',
   'http://localhost:3000',
 );
 
