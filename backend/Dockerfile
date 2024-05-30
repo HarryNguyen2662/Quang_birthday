@@ -6,7 +6,7 @@ FROM node:18
 WORKDIR /backend
 
 # Copy the application files into the working directory
-COPY . /index.js
+COPY . /backend
 
 # Install the application dependencies
 RUN yarn install
