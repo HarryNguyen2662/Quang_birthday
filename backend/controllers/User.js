@@ -7,9 +7,9 @@ const crypto = require('crypto');
 const { google } = require('googleapis');
 
 const oauth2Client = new OAuth2Client(
-  process.env.PASS1,
-  process.env.PASS2,
-  process.env.PASS3,
+  '225763645761-hsk3k9suo4qdjenika5i9deutkg7h5u1.apps.googleusercontent.com',
+  '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',
+  'http://localhost:3000',
 );
 
 // Get leaderboard function
